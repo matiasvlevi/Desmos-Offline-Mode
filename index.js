@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 process.env.NODE_ENV = "production";
 
-const menu = require("./backend/create-menu");
 require("./backend/setup-ipc").setup();
 
 function createWindow(filePath) {
@@ -19,7 +18,7 @@ function createWindow(filePath) {
         }
     });
 
-    Menu.setApplicationMenu(menu);
+    Menu.setApplicationMenu(null);
 
     win.maximize();
     win.loadFile(path.join(__dirname, "app", "index.html"));
