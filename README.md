@@ -28,7 +28,7 @@ $ yarn run package-linux # or npm run package-linux
 
 Install on system
 ```
-$ npm run install-linux
+$ yarn run install-linux # or npm run install-linux
 ```
 
 
