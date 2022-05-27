@@ -8,6 +8,7 @@ require("./backend/setup-ipc").setup();
 
 function createWindow(filePath) {
     const win = new BrowserWindow({
+		title: "Desmos | Offline Mode",
         width: 1280,
         height: 720,
         icon: path.join(__dirname, "app", "favicon.ico"),
