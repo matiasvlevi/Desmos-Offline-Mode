@@ -26,6 +26,12 @@ For Linux:
 $ yarn run package-linux # or npm run package-linux
 ```
 
+Install on system
+```
+$ npm run install-linux
+```
+
+
 # Differences from Web Version
 
 See [differences.md](./differences.md)
